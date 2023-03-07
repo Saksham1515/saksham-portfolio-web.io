@@ -13,5 +13,12 @@ bye.addEventListener('click',function(){
 function closeNav(){
     mobileNav.classList.remove('open');
 }    
-console.log(window.innerHeight);
-console.log(window.innerWidth);
+
+
+// // for checking width and  heigth
+// var a = window.confirm("want to check Width & height");
+// if (a == true)
+// {
+//     console.log("Height :: ", window.innerHeight);
+//     console.log("Width :: ", window.innerWidth);
+// }
