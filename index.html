@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Team Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+        <!-- replit -->
+        <script src="script.js"></script>
+
+        <!--
+        This script places a badge on your repl's full-browser view back to your repl's cover
+        page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green,
+        teal, blue, blurple, magenta, pink!
+        -->
+    <!-- header section -->
+    <div class="site-wrapper">
+        <button class="hamburger"><i class="fa-sharp fa-solid fa-bars"></i></button>
+        <div class="mobile-nav">
+            <button class="close"><i class="fa-solid fa-xmark"></i></button>
+            <ul>
+                <li><a href="#home" onclick="closeNav()">Home<hr></a></li>
+                <li><a href="#About" onclick="closeNav()">About<hr></a></li>
+                <li><a href="#Services" onclick="closeNav()">Services<hr></a></li>
+                <li><a href="#Pages" onclick="closeNav()">Work<hr></a></li>
+                <li><a href="#Contact" onclick="closeNav()">Contact<hr></a><li>
+            </ul>
+        </div>
+        <header>
+            <div class="container">
+            <nav  id="main-nav" class="flex items-center justify-between">
+                <div class="left-nav flex items-center">
+                    <div class="branding">
+                        <img src="logo.svg" alt="logo">
+                    </div>
+                    <div>
+                        <a href="#home">Home</a>
+                        <a href="#About">About</a>
+                        <a href="#Services">Services</a>
+                        <a href="#Pages">Work</a>
+                        <a href="#Contact">Contact</a>                    
+                    </div>
+                </div>
+                <div class="right-nav">
+                    <button class="btn btn-primary">Contact</button>
+                </div>
+            </nav>
+            </div>
+            <!-- hero section -->
+            <div class="hero flex items-center justify-between" id="home">
+                <div class="left flex-1 flex justify-center">
+                    <img src="gigachad-1.png" alt="">
+                </div>
+                <div class="right flex-1">
+                    <h6>Saksham Sharma</h6>
+                    <h1>I'm a Creative <span>Designer</span></h1>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. Ut enim ad minim veniam quis nostrud exercitation ullamco
+                        laboris
+                        nisi ut aliquip ex ea commodo consequat
+                    </p>
+                    <button class="btn btn-secondary">
+                        Download CV
+                    </button>
+                </div>
+            </div>
+        </header>
+        <!-- About section -->
+        <section id="About">
+            <div class="container flex items-center about">
+                <div class="flex-1">
+                    <img class="img-container-2" src="gigachad-2.jpg" alt="">
+                </div>
+                <div class="flex-1 section-1-txt">
+                    <h1>About <span>Us</span></h1>
+                    <h3>Hello! i'm Saksham Sharma</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod tempor incididunt ut
+                        labore et
+                        dolore magna aliqua. Ut enim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut
+                        aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet consectetur adipisicing elit sed do
+                        eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    
+                        Ut enim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                        consequat
+                    </p>
+                    <div class="social">
+                        <a href="#"><i class="fa-brands fa-square-youtube"></i></a>
+                        <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-square-twitter"></i></a>
+                        <a href="#"><i class="fa-brands fa-square-pinterest"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Service section -->
+        <section class="services" id="Services">
+            <div class="service-top container">
+                <h1 class="section-heading">Our <span>Services</span></h1>
+                <p class="container-p">We provide high standard clean website for your business solutions</p>
+            </div>
+            <div class="card-wrapper container">
+            <div class="card">
+                <div class="font-container-service"><i class="fa-sharp fa-solid fa-desktop"></i></div>
+                <h2>Web Design</h2>
+                <p>There are many variations of passages of but the majority have suffered alteration in some
+                    form.
+                </p>
+            </div>
+            <div class="card">
+                <div class="font-container-service "><i class="fa-solid fa-code"></i></div>
+                <h2>Web Development</h2>
+                <p>There are many variations of passages of but the majority have suffered alteration in some
+                    form.
+                </p>
+            </div>
+            <div class="card">
+                <div class="font-container-service"><i class="fa-solid fa-briefcase"></i></div>
+                <h2>Media Marketing</h2>
+                <p>There are many variations of passages of but the majority have suffered alteration in some
+                    form.
+                </p>
+            </div>
+            <div class="card">
+                <div class="font-container-service"><i class="fa-solid fa-paintbrush"></i></div>
+                <h2>Graphic Design</h2>
+                <p>There are many variations of passages of but the majority have suffered alteration in some
+                    form.
+                </p>`   
+            </div>
+            <div class="card">
+                <div class="font-container-service"><i class="fa-solid fa-film"></i></div>
+                <h2>Motion Design</h2>
+                <p>There are many variations of passages of but the majority have suffered alteration in some
+                    form.
+                </p>
+            </div>
+            <div class="card">
+                <div class="font-container-service"><i class="fa-regular fa-object-group"></i></div>
+                <h2>Apps</h2>
+                <p>There are many variations of passages of but the majority have suffered alteration in some
+                    form.
+                </p>
+            </div>
+            </div>
+        </section>
+        <!-- freelancer section -->
+        <section class="freelancer">    
+            <h1>I Am Available For Freelancer.</h1>
+            <p>We provide high standard clean website for your business solutions</p>
+            <button class="btn btn-primary">Download CV</button>
+        </section>
+        <!-- Review section -->
+        <section class="reviews">
+            <div class="container">
+                <h1 class="section-heading">Our <span>Clients</span></h1>
+                <p class="container-p">We provide high standard clean website for your business solutions</p>
+                <div class="slider">
+                    <div class="slide flex items-center">
+                        <img src="lady.png" alt="">
+                        <p class="slider-p">
+                            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+                            mollit anim id est laborum"
+                        </p>
+                        <span>- John Doel, Company ABC</span>
+                    </div>
+                    <!-- <div class="slide flex items-center">
+                        <img src="lady.png" alt="">
+                        <p class="slider-p">
+                            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+                            mollit anim id est laborum"
+                        </p>
+                        <span>- John Doel, Company ABC</span>
+                    </div>
+                    <div class="slide flex items-center">
+                        <img src="lady.png" alt="">
+                        <p class="slider-p">
+                            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+                            mollit anim id est laborum"
+                        </p>
+                        <span>- John Doel, Company ABC</span>
+                    </div>
+                    <div class="slide flex items-center">
+                        <img src="lady.png" alt="">
+                        <p class="slider-p">
+                            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+                            mollit anim id est laborum"
+                        </p>
+                        <span>- John Doel, Company ABC</span>
+                    </div>
+                    <div class="slide flex items-center">
+                        <img src="lady.png" alt="">
+                        <p class="slider-p">
+                            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+                            mollit anim id est laborum"
+                        </p>
+                        <span>- John Doel, Company ABC</span>
+                    </div>
+                    <div class="slide flex items-center">
+                        <img src="lady.png" alt="">
+                        <p class="slider-p">
+                            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+                            mollit anim id est laborum"
+                        </p>
+                        <span>- John Doel, Company ABC</span>
+                    </div>-->
+                </div> 
+                <!--<div class="slider-dots"></div> --> 
+            </div>
+        </section>
+        <!-- work section -->
+        <section class="work" id="Pages">
+            <div class="container">
+                <h1 class="section-heading">Our <span>Works</span></h1>
+                <p class="container-p">We provide high standard clean website for your business solutions</p>
+                <div class="card-wrapper-1">
+                    <div class="card-1">
+                        <div class="overlay">
+                            <span>Categories</span>
+                            <a href="#">web Development</a>
+                        </div>
+                        <img src="ph-1.png" alt="">
+                    </div>
+                    <div class="card-1">
+                        <div class="overlay">
+                            <span>Categories</span>
+                            <a href="#">web Development</a>
+                        </div>
+                        <img src="ph-2.png" alt="">
+                    </div>
+                    <div class="card-1">
+                        <div class="overlay">
+                            <span>Categories</span>
+                            <a href="#">web Development</a>
+                        </div>
+                        <img src="ph-3.png" alt="">
+                    </div>
+                    <div class="card-1">
+                        <div class="overlay">
+                            <span>Categories</span>
+                            <a href="#">web Development</a>
+                        </div>
+                        <img src="ph-2.png" alt="">
+                    </div>
+                    <div class="card-1">
+                        <div class="overlay">
+                            <span>Categories</span>
+                            <a href="#">web Development</a>
+                        </div>
+                        <img src="ph-3.png" alt="">
+                    </div>
+                    <div class="card-1">
+                        <div class="overlay">
+                            <span>Categories</span>
+                            <a href="#">web Development</a>
+                        </div>
+                        <img src="ph-1.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Blog section -->
+        <section id="blog" class="blog">
+            <div class="container">
+                <h1 class="section-heading">Our <span> Blog</span></h1>
+                <p class="container-p">We provide high standard clean website for your business solutions</p>
+            </div>
+            <div class="card-wrapper">
+                <div class="card">
+                    <div class="img-wrapper">
+                        <img src="article-ph-1.png" alt="">
+                    </div>
+                    <div class="card-content">
+                        <a href="#">
+                            <h1>Occusamus et iusto odio</h1>
+                        </a>
+                        <span>May 12, 2017</span>
+                        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                            nulla
+                        </p>
+                        <a href="#" class="read-more">Read More</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="img-wrapper">
+                        <img src="article-ph-2.png" alt="">
+                    </div>
+                    <div class="card-content">
+                        <a href="#">
+                            <h1>Occusamus et iusto odio</h1>
+                        </a>
+                        <span>May 12, 2017</span>
+                        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                            nulla
+                        </p>
+                        <a href="#" class="read-more">Read More</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="img-wrapper">
+                        <img src="article-ph-3.png" alt="">
+                    </div>
+                    <div class="card-content">
+                        <a href="#">
+                            <h1>Occusamus et iusto odio</h1>
+                        </a>
+                        <span>May 12, 2017</span>
+                        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                            nulla
+                        </p>
+                        <a href="#" class="read-more">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- contact section -->
+        <section class="contact" id="Contact">
+            <div class="container">
+                <h1 class="section-heading">Contact <span>Us</span></h1>
+                <p class="container-p">We provide high standard clean website for your business solutions</p>
+                <div class="card-wrapper">
+                    <div class="card">
+                        <i class="fa-solid fa-mobile-screen-button"></i>
+                        <h1>Call Us On</h1>
+                        <h6>+917206060***</h6>
+                    </div>
+                    <div class="card">
+                        <i class="fa-regular fa-envelope"></i>
+                        <h1>Email Us At</h1>
+                        <h6>saksham*****@gmail.com</h6>
+                    </div>
+                    <div class="card">
+                        <i class="fa-regular fa-map"></i>
+                        <h1>Visit Office</h1>
+                        <h6>Yamunanagar,Haryana,India</h6>
+                    </div>
+                </div>
+                <form action="">
+                    <div class="input-wrap">
+                        <input type="text" placeholder="Your Name*" required>
+                        <input type="email" placeholder="Your Email*" required>
+                    </div>    
+                    <div class="input-wrap-2">
+                        <input type="text" placeholder="Your Subject..." required>
+                        <textarea name="" id="" cols="30" rows="10" placeholder="Your Message....." required></textarea>
+                    </div>
+                    <div class="submit-btn">
+                        <button class="btn btn-primary">Send Message</button>
+                    </div>
+                </form>
+            </div>        
+        </section>
+        <footer>
+            <img src="logo-2.svg" alt="">
+            <div class="footer-social">
+                <a href="#"><i class="fa-brands fa-square-youtube"></i></a>
+                <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-square-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-square-pinterest"></i></a> 
+            </div>
+            <h3>Created by <span>Saksham</span></h3>
+        </footer>
+    </div>
+    <script src="https://kit.fontawesome.com/df43c049a0.js" crossorigin="anonymous"></script>
+<!-- <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>-->
+<script src="app.js"></script> 
+</body>
+</html>
