@@ -533,7 +533,9 @@ hr{
     width: 100%;
     outline: none;
     border: none;
-}    
+    border-color: var(--secondary);
+}   
+
 /* to see container */
 
 /* .container{
@@ -541,12 +543,19 @@ hr{
     padding: 0 15px;
     margin: 0 auto;
 }  */
+
+/* Media -- query */
 @media (max-width:669px) and (min-width:577px){
+    .site-wrapper .mobile-nav li a{
+        font-size:3.3rem;
+    }
+    .site-wrapper .mobile-nav .close i{
+        font-size:3.3rem;
+    }
     .contact .card h1 {
         font-size: 1.5rem;
     }
-}
-
+}   
 @media (max-width:1024px){
     html,body{
         width:100%;
@@ -555,8 +564,6 @@ hr{
         padding: 0;
         overflow-x: hidden;
     }
-}    
-@media (max-width:1024px){
     header #main-nav{
         display: none;
     }
@@ -607,6 +614,12 @@ hr{
     } 
 }
 @media (max-width:767px) and (min-width:670px){
+    .site-wrapper .mobile-nav li a{
+        font-size:4.3rem;
+    }
+    .site-wrapper .mobile-nav .close i{
+        font-size:4.3rem;
+    }
     .work .card-wrapper-1{
         grid-template-columns: repeat(2,290px);
         margin: 5rem 3rem;
@@ -664,6 +677,12 @@ hr{
     }
 }
 @media (max-width:669px) {
+    .site-wrapper .mobile-nav li a{
+        font-size:4rem;
+    }
+    .site-wrapper .mobile-nav .close i{
+        font-size:4rem;
+    }
     .work .card-wrapper-1{
         grid-template-columns: repeat(1,290px);
         margin: 5rem 3rem;
@@ -717,6 +736,12 @@ hr{
     }
 }
 @media (max-width:576px) {
+    .site-wrapper .mobile-nav li a{
+        font-size:3.8rem;
+    }
+    .site-wrapper .mobile-nav .close i{
+        font-size:3.8rem;
+    }
     html,body{
         width:100%;
         height: 100%;
@@ -837,6 +862,12 @@ hr{
     }
 }
 @media (max-width:346px) and (min-width:250px){
+    .site-wrapper .mobile-nav li a{
+        font-size:3.3rem;
+    }
+    .site-wrapper .mobile-nav .close i{
+        font-size:3.3rem;
+    }
     .card-wrapper{
         grid-template-columns: repeat(2,110px);
         /* grid-column-gap:1.5rem;
@@ -877,6 +908,113 @@ hr{
         margin-left: 10px;
     }
 }
+@media (min-width:992px){
+    .site-wrapper .mobile-nav li a{
+        font-size:4.5rem;
+    }
+    .site-wrapper .mobile-nav .close i{
+        font-size:4.5rem;
+    }
+    html,body{
+        font-size: 140%;
+    }
+    .work .card-wrapper-1 {
+        grid-template-columns: repeat(3,1fr);
+        margin: 10rem 3rem;
+    }
+    .about .flex-1 img{
+        margin-left: 9%;
+        width: 320px;
+        height:360px;
+    }
+    .about .section-1-txt{
+        margin-left:5px;
+    }
+    .about .section-1-txt h1{
+        font-size: 4.5rem;
+    }
+    .about .section-1-txt h3{
+        font-size: 2.3rem;
+    }
+    .about .section-1-txt p{
+        font-size: 1rem;
+        word-break:break-all;
+        font-weight: 300;
+    }
+    section.contact .container .card-wrapper .card i{
+        font-size: 4rem;
+    }
+    section.contact .container .card-wrapper{
+        margin-top: 5rem;
+    }
+    .contact .container .card-wrapper .card  h1{
+        font-size: 4rem;
+    }
+    .freelancer{
+        clip-path: polygon(0 0,100% 0,100% 100%, 70% 70%,0 100%);
+    }
+    .hero .left img{
+        width: 600px;
+        margin-left: -7%;
+    }
+    header{
+        clip-path: polygon(0 0,100% 0,100% 100%, 78% 87%,0 100%);
+    }    
+}
+@media (min-width:1025px){
+    html,body{
+        font-size: 100%;
+    }
+    header{
+        clip-path: polygon(0 0,100% 0,100% 100%, 30% 90%,0 100%);
+    } 
+    .hero .left img{
+        width: 650px;
+        margin-left: -10%;
+    }
+    section.contact .container .card-wrapper .card h1{
+        font-size: 2.5rem;
+    }
+    .about .section-1-txt h1{
+        font-size: 3.5rem;
+    }
+    .about .section-1-txt h3{
+        font-size: 1.3rem;
+    }
+    .about .section-1-txt p{
+        font-size: 1rem;
+        word-break:break-all;
+        font-weight: 300;
+    }
+}
+@media (min-width:1194px) {
+    .about .flex-1 img{
+        margin-left: 30%;
+        width: 340px;
+        height:390px;
+    }   
+    .branding img{
+        width:290px;
+    }
+    .left-nav{
+        font-size: 130%;
+    }
+}
+@media (min-width:1565px){
+    html,body{
+        font-size: 140%;
+    }
+    .about .flex-1 img{
+        margin-left: 50%;
+    }
+    .section-1-txt p{
+        max-width:700px;    
+    }
+    .hero .left img{
+        width: 700px;
+        margin-left: -5%;
+    }
+}
 
 /* media conatiner */
 @media (min-width:576px){
@@ -897,6 +1035,12 @@ hr{
 @media (min-width:1200px){
     .container{
         max-width: 11520px;
+    }
+    section .social a i{
+        font-size: 2.3rem;
+    }
+    .footer{
+        font-size: 120%;
     }
 }
 
